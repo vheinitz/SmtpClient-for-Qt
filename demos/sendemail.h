@@ -19,7 +19,7 @@
 
 #include <QWidget>
 
-#include "../../src/SmtpMime"
+#include "../src/SmtpMime"
 
 
 

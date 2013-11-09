@@ -17,7 +17,7 @@
 #include <QtGui/QApplication>
 
 #include "sendemail.h"
-#include "../../src/SmtpMime"
+#include "../src/SmtpMime"
 
 
 #include <iostream>
