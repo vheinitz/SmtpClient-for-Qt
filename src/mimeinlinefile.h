@@ -19,9 +19,10 @@
 #ifndef MIMEINLINEFILE_H
 #define MIMEINLINEFILE_H
 
+#include "common.h"
 #include "mimefile.h"
 
-class MimeInlineFile : public MimeFile
+class QSMTP_EXPORT MimeInlineFile : public MimeFile
 {
 public:
 

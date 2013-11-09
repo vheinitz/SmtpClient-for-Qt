@@ -21,9 +21,10 @@
 
 #include <QFile>
 #include "mimepart.h"
+#include "common.h"
 #include "mimefile.h"
 
-class MimeAttachment : public MimeFile
+class QSMTP_EXPORT MimeAttachment : public MimeFile
 {
     Q_OBJECT
 public:

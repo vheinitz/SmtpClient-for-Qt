@@ -19,9 +19,10 @@
 #ifndef MIMEHTML_H
 #define MIMEHTML_H
 
+#include "common.h"
 #include "mimetext.h"
 
-class MimeHtml : public MimeText
+class QSMTP_EXPORT MimeHtml : public MimeText
 {
     Q_OBJECT
 public:

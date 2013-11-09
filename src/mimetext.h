@@ -19,9 +19,10 @@
 #ifndef MIMETEXT_H
 #define MIMETEXT_H
 
+#include "common.h"
 #include "mimepart.h"
 
-class MimeText : public MimePart
+class QSMTP_EXPORT MimeText : public MimePart
 {
 public:
 

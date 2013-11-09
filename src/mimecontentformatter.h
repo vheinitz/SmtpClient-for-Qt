@@ -19,10 +19,11 @@
 #ifndef MIMECONTENTFORMATTER_H
 #define MIMECONTENTFORMATTER_H
 
+#include "common.h"
 #include <QObject>
 #include <QByteArray>
 
-class MimeContentFormatter : public QObject
+class QSMTP_EXPORT MimeContentFormatter : public QObject
 {
     Q_OBJECT
 public:

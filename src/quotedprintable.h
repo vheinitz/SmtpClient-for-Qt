@@ -19,6 +19,7 @@
 #ifndef QUOTEDPRINTABLE_H
 #define QUOTEDPRINTABLE_H
 
+#include "common.h"
 #include <QObject>
 #include <QByteArray>
 

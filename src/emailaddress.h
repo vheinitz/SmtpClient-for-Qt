@@ -20,8 +20,9 @@
 #define EMAILADDRESS_H
 
 #include <QObject>
+#include "common.h"
 
-class EmailAddress : public QObject
+class QSMTP_EXPORT EmailAddress : public QObject
 {
     Q_OBJECT
 public:

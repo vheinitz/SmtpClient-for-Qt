@@ -19,13 +19,14 @@
 #ifndef SMTPCLIENT_H
 #define SMTPCLIENT_H
 
+#include "common.h"
 #include <QObject>
 #include <QtNetwork/QSslSocket>
 
 #include "mimemessage.h"
 
 
-class SmtpClient : public QObject
+class QSMTP_EXPORT SmtpClient : public QObject
 {
     Q_OBJECT
 public:

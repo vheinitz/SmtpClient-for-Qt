@@ -19,12 +19,13 @@
 #ifndef MIMEMESSAGE_H
 #define MIMEMESSAGE_H
 
+#include "common.h"
 #include "mimepart.h"
 #include "mimemultipart.h"
 #include "emailaddress.h"
 #include <QList>
 
-class MimeMessage : public QObject
+class QSMTP_EXPORT MimeMessage : public QObject
 {
 public:
 
