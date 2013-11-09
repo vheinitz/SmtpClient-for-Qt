@@ -7,7 +7,9 @@
 QT       += core gui network
 
 TARGET = SMTPEmail
-TEMPLATE = app
+DESTDIR = bin
+TEMPLATE = lib
+DEFINES += BUILDING_QSMTP_DLL
 
 
 SOURCES += \
@@ -37,7 +39,8 @@ HEADERS  += \
     src/SmtpMime \
     src/quotedprintable.h \
     src/mimemultipart.h \
-    src/mimecontentformatter.h
+    src/mimecontentformatter.h \
+	src/common.h
 
 OTHER_FILES += \
     LICENSE \
