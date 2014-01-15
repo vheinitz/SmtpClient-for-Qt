@@ -398,13 +398,13 @@ void SmtpClient::quit()
 
 /* [4] Protected methods */
 
-void SmtpClient::waitForResponse() throw (ResponseTimeoutException)
+void SmtpClient::waitForResponse() //VH throw (ResponseTimeoutException)
 {
     do {
         if (!socket->waitForReadyRead(responseTimeout))
         {
             emit smtpError(ResponseTimeoutError);
-            throw ResponseTimeoutException();
+            //VH throw ResponseTimeoutException();
         }
 
         while (socket->canReadLine()) {

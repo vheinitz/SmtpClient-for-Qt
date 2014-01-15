@@ -148,7 +148,7 @@ protected:
 
     /* [5] Protected methods */
 
-    void waitForResponse() throw (ResponseTimeoutException);
+    void waitForResponse();//VH throw (ResponseTimeoutException);
 
     void sendMessage(const QString &text);
 
