@@ -1,6 +1,6 @@
 SMTP Client Library and Demo for Qt (C++) - Version 1.0
 =============================================
-This project is based on the implementation of Tőkés Attila: [Wiki/Examples](https://github.com/bluetiger9/SmtpClient-for-Qt)
+This project is based on the implementation of Tőkés Attila: [SmtpClient-for-Qt](https://github.com/bluetiger9/SmtpClient-for-Qt)
 
 ##Changes:
 
